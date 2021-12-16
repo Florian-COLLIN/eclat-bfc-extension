@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Eclat-BFC",
+    "version": "0.0.1",
+    "description": "Extension pour améliorer les fonctionnalités de Eclat-BFC",
+    "homepage_url": "https://florian-collin.github.io/eclat-bfc-extension/",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+    {
+        "matches": ["*://*.eclat-bfc.fr/*"],
+        "css": ["dark-mode.css"]
+    }
+  ]
+}

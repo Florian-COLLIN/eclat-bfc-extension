@@ -1,0 +1,28 @@
+button.burger {
+    background-color: #2E2E2E;
+}
+nav.menu {
+    background-color: #424242;
+}
+div.bar,
+div.dropdown {
+    background-color: #151515;
+}
+p,
+ul li,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+    font-family: "Century Schoolbook";
+}
+main.content {
+    background-color: #000000;
+}
+.panel.panel--outlined {
+    background-color: #071907;
+    border: 1px solid #d7dee2;
+    border-radius: 2rem;
+}
