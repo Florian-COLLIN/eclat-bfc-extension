@@ -5,7 +5,9 @@ nav.menu {
     background-color: #424242;
 }
 div.bar,
-div.dropdown {
+div.dropdown,
+div.header__help,
+div.header__cookies {
     background-color: #151515;
 }
 p,
@@ -18,11 +20,23 @@ h5 {
     color: white;
     font-family: "Century Schoolbook";
 }
-main.content {
-    background-color: #000000;
+a,
+span.jstree-label {
+    color: #9B9696;
+    font-family: "Century Schoolbook";
+}
+main.content,
+.panel.panel--no-margin,
+div#menu_contenu,
+div.col.col--full.col--xs-12.col--sm-3.col--xl-2.app-layout-1__col.panel--bg-lightest.col--border {
+    background-color: #2E2E2E;
+}
+div.content-toolbar.content-toolbar--title.content-toolbar--tabs,
+div.content-toolbar.content-toolbar--title.content-toolbar--buttons {
+    background-color: #1C1C1C;
 }
 .panel.panel--outlined {
-    background-color: #071907;
+    background-color: #1B0000;
     border: 1px solid #d7dee2;
     border-radius: 2rem;
 }
