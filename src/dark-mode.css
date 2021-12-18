@@ -16,7 +16,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+span {
     color: white;
     font-family: "Century Schoolbook";
 }
@@ -36,7 +37,20 @@ div.content-toolbar.content-toolbar--title.content-toolbar--buttons {
     background-color: #1C1C1C;
 }
 .panel.panel--outlined {
-    background-color: #1B0000;
+    background-color: #02221E;
     border: 1px solid #d7dee2;
     border-radius: 2rem;
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: auto;
+    height: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: #292A0A;
+    width: auto;
+}
+li.services-shortcut__item.services-shortcut__item--current,
+li.services-list__item.services-list__item--group.services-list__item--actif {
+    background-color: #015047;
 }
