@@ -1,3 +1,6 @@
+body {
+    background-color: #000000;
+}
 button.burger {
     background-color: #2E2E2E;
 }
@@ -53,4 +56,10 @@ div.content-toolbar.content-toolbar--title.content-toolbar--buttons {
 li.services-shortcut__item.services-shortcut__item--current,
 li.services-list__item.services-list__item--group.services-list__item--actif {
     background-color: #015047;
+}
+div.container.cas__container {
+    background-color: #2E2E2E;
+}
+div.msg.msg--information {
+    background-color: #0A0A2A;
 }
