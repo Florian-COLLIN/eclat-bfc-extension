@@ -6,7 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## Unrealesed
 ### Added
 - Initial commit ;
-- Add dark-mode.css.
+- Add dark-mode.css ;
+- Add icons.
 
 ### Changed
 
