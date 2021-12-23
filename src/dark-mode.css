@@ -4,7 +4,8 @@ body {
 button.burger {
     background-color: #2E2E2E;
 }
-nav.menu {
+nav.menu,
+nam.menu.js-menu {
     background-color: #424242;
 }
 div.bar,
@@ -39,7 +40,8 @@ div.content-toolbar.content-toolbar--title.content-toolbar--tabs,
 div.content-toolbar.content-toolbar--title.content-toolbar--buttons {
     background-color: #1C1C1C;
 }
-.panel.panel--outlined {
+.panel.panel--outlined,
+div#contenu_deco {
     background-color: #02221E;
     border: 1px solid #d7dee2;
     border-radius: 2rem;
@@ -62,4 +64,7 @@ div.container.cas__container {
 }
 div.msg.msg--information {
     background-color: #0A0A2A;
+}
+div.content-filter {
+    backroung-color: #2E2E2E;
 }
