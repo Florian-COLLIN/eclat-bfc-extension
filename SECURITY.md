@@ -4,6 +4,7 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
+| 0.0.2   | :x: Not verified   |
 | 0.0.1   | :white_check_mark: |
 
 ## Reporting a Vulnerability
