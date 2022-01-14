@@ -1,10 +1,11 @@
 {
-    "manifest_version": 2,
-    "name": "Eclat-BFC",
-    "version": "0.0.1",
-    "description": "Extension pour améliorer les fonctionnalités de Eclat-BFC",
+    "manifest_version": 3,
+    "name": "__MSG_extName__",
+    "version": "0.0.2",
+    "description": "__MSG_extDescription__",
     "homepage_url": "https://florian-collin.github.io/eclat-bfc-extension/",
-    "browser_action": {
+    "default_locale": "en",
+    "action": {
         "default_popup": "popup.html"
     },
     "content_scripts": [
@@ -17,5 +18,12 @@
         "16": "images/icon16.png",
         "48": "images/icon48.png",
         "128": "images/icon128.png"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
     }
 }

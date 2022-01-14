@@ -1,0 +1,10 @@
+{
+    "extName": {
+        "message": "Better Eclat-BFC",
+        "description": "Extension name."
+    },
+    "extDescription": {
+        "message": "The Better Eclat-BFC extension enhances the functionality of Eclat-BFC.",
+        "description": "Extension description."
+    }
+}
