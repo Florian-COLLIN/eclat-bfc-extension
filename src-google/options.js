@@ -2,16 +2,18 @@
 function save_options() {
     var theme = document.getElementById('theme').value;
     var likesColor = document.getElementById('like').checked;
+    var etablissement = document.getElementById('etablissement').string;
+
     chrome.storage.sync.set({
         favoriteTheme: theme,
-        likesColor: likesColor
+        likesColor: likesColor,
+        favoriteEtablissement: etablissement,
     }, function() {
-        // Update status to let user know options were saved.
         var status = document.getElementById('status');
-        status.textContent = 'Préférences enregistrées.';
+        status.textContent = 'Paramètres enregistrés.';
         setTimeout(function() {
-            status.textContent = '';
-        }, 750);
+            status.textContent = 'Paramètres non enregistrés';
+        }, 2000);
     });
 }
 
@@ -20,12 +22,13 @@ function save_options() {
 function restore_options() {
     chrome.storage.sync.get({
         favoriteTheme: 'sombre',
-        likesColor: true
+        likesColor: true,
+        favoriteEtablissement: "cas",
     }, function(items) {
         document.getElementById('theme').value = items.favoriteTheme;
         document.getElementById('like').checked = items.likesColor;
+        document.getElementById('etablissement').string = items.favoriteEtablissement;
     });
 }
 document.addEventListener('DOMContentLoaded', restore_options);
-document.getElementById('save').addEventListener('click',
-    save_options);
+document.getElementById('save').addEventListener('click', save_options);
