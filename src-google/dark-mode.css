@@ -68,3 +68,8 @@ div.msg.msg--information {
 div.content-filter {
     backroung-color: #2E2E2E;
 }
+
+/* Emploi du temps */
+div.b-reset.o-hidden.p-absolute.bloc_evenement {
+    border-radius: 1rem;
+}
