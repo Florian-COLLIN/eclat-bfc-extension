@@ -5,10 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unrealesed
 ### Added
-- Compatibility with Firefox ;
+- help.html : help and about page added ;
 - i18n : french and english.
 
 ### Changed
+- Update popup.html HTML Popup page.
 
 ### Fixed
 
