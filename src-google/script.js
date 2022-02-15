@@ -6,4 +6,4 @@ description = chrome.i18n.getMessage("extDescription");
 let betterLink = document.createElement("div");
 betterLink.id = "qqch";
 document.getElementById("0").appendChild(betterLink);
-document.getElementById("qqch").innerHTML = "<li class\"services-sublist__item\"><a href=\"https://florian-collin.github.io/eclat-bfc-extension/\">Better Eclat-BFC</a></li>";
+document.getElementById("qqch").innerHTML = "<li class=\"services-sublist__item\"><a href=\"https://florian-collin.github.io/eclat-bfc-extension/\">Better Eclat-BFC</a></li>";
