@@ -7,10 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Added
 - help.html : help and about page added ;
 - i18n : french and english ;
+- style.css : Sheets Styles for popup and help HTML page ;
 - Link to the Documentation of Better Eclat-BFC, in the "Other services" tab of the menu.
 
 ### Changed
 - Update popup.html HTML Popup page ;
+- Add "version_name" in the manifest for beta and alpha version ;
 - Improved dark mode.
 
 ### Fixed
