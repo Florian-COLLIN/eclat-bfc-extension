@@ -5,7 +5,7 @@
     "description": "__MSG_extDescription__",
     "homepage_url": "https://florian-collin.github.io/eclat-bfc-extension/",
     "default_locale": "en",
-    "version_name": "v0.0.2-alpha",
+    "version_name": "v0.0.2-alpha.4",
     "action": {
         "default_popup": "popup.html"
     },
