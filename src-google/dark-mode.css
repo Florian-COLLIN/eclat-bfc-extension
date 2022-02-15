@@ -33,7 +33,9 @@ span.jstree-label {
 main.content,
 .panel.panel--no-margin,
 div#menu_contenu,
-div.col.col--full.col--xs-12.col--sm-3.col--xl-2.app-layout-1__col.panel--bg-lightest.col--border {
+div.col.col--full.col--xs-12.col--sm-3.col--xl-2.app-layout-1__col.panel--bg-lightest.col--border,
+div.col--full.col--xs-12.col--sm-6.col--md-8.col--flex-sm.col--border.col--bg-lightest.app-layout-1__col,
+body {
     background-color: #2E2E2E;
 }
 div.content-toolbar.content-toolbar--title.content-toolbar--tabs,
