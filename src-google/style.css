@@ -1,0 +1,33 @@
+p.help,
+table.help tr td {
+    font-family: "Century Schoolbook";
+    font-size: 2em;
+}
+p {
+    font-family: "Century Schoolbook";
+    font-size: 1em;
+}
+main {
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 25%;
+    margin-left: 25%;
+    box-shadow: 3em;
+    border-radius: 10px;
+}
+table.help tr td {
+    border: 1px solid black;
+    box-shadow: 3em;
+}
+.button {
+    padding: 15px 50px;
+    margin: 10px 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+.button:hover {
+    opacity: 0.5;
+}
