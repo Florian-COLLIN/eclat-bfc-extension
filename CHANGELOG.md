@@ -5,6 +5,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unrealesed
 ### Added
+
+### Changed
+
+### Fixed
+
+## [v0.0.2] - 2022-02-16
+### Added
 - help.html : help and about page added ;
 - i18n : french and english ;
 - style.css : Sheets Styles for popup and help HTML page ;
@@ -15,8 +22,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Update popup.html HTML Popup page ;
 - Add "version_name" in the manifest for beta and alpha version ;
 - Improved dark mode.
-
-### Fixed
 
 ## [v0.0.1] - 2021-12-20
 ### Added
