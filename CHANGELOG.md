@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Add "Author" in manifest JSON file.
 
 ### Changed
+- Update dark-mode.css.
 
 ### Fixed
 

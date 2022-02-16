@@ -5,8 +5,10 @@ button.burger {
     background-color: #2E2E2E;
 }
 nav.menu,
-nav.menu.js-menu {
+nav.menu.js-menu,
+div.msg.msg--success.slug.slug--sm {
     background-color: #424242;
+}
 }
 div.bar,
 div.dropdown,
@@ -69,10 +71,13 @@ div.msg.msg--information {
     background-color: #0A0A2A;
 }
 div.content-filter {
-    backroung-color: #2E2E2E;
+    background-color: #2E2E2E;
 }
 
 /* Emploi du temps */
 div.b-reset.o-hidden.p-absolute.bloc_evenement {
     border-radius: 1rem;
+}
+div.msg__title {
+    color: #00FFBF;
 }
