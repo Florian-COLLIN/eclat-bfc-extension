@@ -9,7 +9,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Changed
 - Update dark-mode.css ;
-- Update messages.json for the french language.
+- Update messages.json for the french language ;
+- Local default in manifest changed.
 
 ### Fixed
 
