@@ -10,11 +10,11 @@ div.msg.msg--success.slug.slug--sm {
     background-color: #424242;
 }
 }
-div.bar,
+div.header div.bar,
 div.dropdown,
 div.header__help,
 div.header__cookies {
-    background-color: #151515;
+    background-color: #323f2f;
 }
 p,
 ul li,
