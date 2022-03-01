@@ -73,7 +73,21 @@ div.msg.msg--information {
 div.content-filter {
     background-color: #2E2E2E;
 }
-
+div.modal__body.js-modal__body {
+    background-color: #424242; 
+}
+button.btn.btn--primary,
+input.btn.btn--primary,
+button.btn.btn--secondary {
+    border-radius: 2rem;
+    background-color: ##2E86C1;
+    color: black;
+}
+button.btn.btn--primary:hover,
+input.btn.btn--primary:hover,
+button.btn.btn--secondary:hover {
+    transition-delay: 1.5s;
+}
 /* Emploi du temps */
 div.b-reset.o-hidden.p-absolute.bloc_evenement {
     border-radius: 1rem;
