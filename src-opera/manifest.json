@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_extName__",
+    "version": "0.0.3",
+    "description": "__MSG_extDescription__",
+    "homepage_url": "https://florian-collin.github.io/eclat-bfc-extension/",
+    "default_locale": "fr",
+    "version_name": "v0.0.3-alpha.1 Build 12",
+    "author": "Florian COLLIN",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.eclat-bfc.fr/*"
+            ],
+            "css": [
+                "dark-mode.css"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    }
+}

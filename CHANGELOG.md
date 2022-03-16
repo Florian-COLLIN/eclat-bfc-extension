@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Local default in manifest changed.
 
 ### Fixed
+- Opera compatibility.
 
 ## [v0.0.2] - 2022-02-16
 ### Added

@@ -1,0 +1,97 @@
+body {
+    background-color: #000000;
+}
+button.burger {
+    background-color: #2E2E2E;
+}
+nav.menu,
+nav.menu.js-menu,
+div.msg.msg--success.slug.slug--sm {
+    background-color: #424242;
+}
+}
+div.header div.bar,
+div.dropdown,
+div.header__help,
+div.header__cookies {
+    background-color: #323f2f;
+}
+p,
+ul li,
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+tr td {
+    color: white;
+    font-family: "Century Schoolbook";
+}
+a,
+span.jstree-label {
+    color: #9B9696;
+    font-family: "Century Schoolbook";
+}
+main.content,
+.panel.panel--no-margin,
+div#menu_contenu,
+div.col.col--full.col--xs-12.col--sm-3.col--xl-2.app-layout-1__col.panel--bg-lightest.col--border,
+div.col--full.col--xs-12.col--sm-6.col--md-8.col--flex-sm.col--border.col--bg-lightest.app-layout-1__col,
+body {
+    background-color: #2E2E2E;
+}
+div.content-toolbar.content-toolbar--title.content-toolbar--tabs,
+div.content-toolbar.content-toolbar--title.content-toolbar--buttons {
+    background-color: #1C1C1C;
+}
+.panel.panel--outlined,
+div#contenu_deco {
+    background-color: #02221E;
+    border: 1px solid #d7dee2;
+    border-radius: 2rem;
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: auto;
+    height: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: #292A0A;
+    width: auto;
+}
+li.services-shortcut__item.services-shortcut__item--current,
+li.services-list__item.services-list__item--group.services-list__item--actif {
+    background-color: #015047;
+}
+div.container.cas__container {
+    background-color: #2E2E2E;
+}
+div.msg.msg--information {
+    background-color: #0A0A2A;
+}
+div.content-filter {
+    background-color: #2E2E2E;
+}
+div.modal__body.js-modal__body {
+    background-color: #424242; 
+}
+button.btn.btn--primary,
+input.btn.btn--primary,
+button.btn.btn--secondary {
+    border-radius: 2rem;
+    background-color: ##2E86C1;
+    color: black;
+}
+button.btn.btn--primary:hover,
+input.btn.btn--primary:hover,
+button.btn.btn--secondary:hover {
+    transition-delay: 1.5s;
+}
+/* Emploi du temps */
+div.b-reset.o-hidden.p-absolute.bloc_evenement {
+    border-radius: 1rem;
+}
+div.msg__title {
+    color: #00FFBF;
+}
