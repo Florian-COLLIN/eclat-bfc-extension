@@ -5,6 +5,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unrealesed
 ### Added
+
+### Changed
+
+### Fixed
+
+## [v0.0.3] Build 12 - 2022-03-16
+### Added
 - Add "Author" in manifest JSON file.
 
 ### Changed
