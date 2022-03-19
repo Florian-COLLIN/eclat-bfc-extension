@@ -9,22 +9,13 @@ nav.menu.js-menu,
 div.msg.msg--success.slug.slug--sm {
     background-color: #424242;
 }
-}
 div.header div.bar,
 div.dropdown,
 div.header__help,
 div.header__cookies {
     background-color: #323f2f;
 }
-p,
-ul li,
-h1,
-h2,
-h3,
-h4,
-h5,
-span,
-tr td {
+* {
     color: white;
     font-family: "Century Schoolbook";
 }
@@ -34,7 +25,6 @@ span.jstree-label {
     font-family: "Century Schoolbook";
 }
 main.content,
-.panel.panel--no-margin,
 div#menu_contenu,
 div.col.col--full.col--xs-12.col--sm-3.col--xl-2.app-layout-1__col.panel--bg-lightest.col--border,
 div.col--full.col--xs-12.col--sm-6.col--md-8.col--flex-sm.col--border.col--bg-lightest.app-layout-1__col,
@@ -50,6 +40,9 @@ div#contenu_deco {
     background-color: #02221E;
     border: 1px solid #d7dee2;
     border-radius: 2rem;
+}
+article.panel.panel--full.panel--no-margin.js-travail-a-faire {
+    background-color: #02221E;
 }
 /* Scrollbar */
 ::-webkit-scrollbar {
