@@ -13,6 +13,9 @@ Si vous avez installer l'extension manuellement, il faudra rechercher vous même
 ### Firefox
 Pour le moment, il n'est pas possible d'installer l'extension sur Mozilla Firefox, aucune mise à jour ne peut donc être effectué.
 
+### Opera
+Pour le moment, il n'est pas possible d'installer l'extension sur Opera, aucune mise à jour ne peut donc être effectué.
+
 ## Documentation
 - [Comment installer](/eclat-bfc-extension/fr/docs/how-to-install) ;
 - [Comment utiliser](/eclat-bfc-extension/fr/docs/how-to-use) ;
