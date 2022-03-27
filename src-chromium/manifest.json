@@ -7,9 +7,6 @@
     "default_locale": "fr",
     "version_name": "v0.1.1-alpha.1 Build 13",
     "author": "Florian COLLIN",
-    "permissions": [
-        "tabs"
-    ],
     "action": {
         "default_popup": "popup.html"
     },
