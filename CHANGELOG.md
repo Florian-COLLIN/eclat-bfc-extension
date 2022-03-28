@@ -8,7 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Changed
 - Dark mode updated for Eclat-BFC ;
-- HTML popup page updated.
+- HTML popup page updated ;
+- HTML changelog page updated ;
+- CSS file for changelog page updated.
 
 ### Fixed
 
