@@ -38,10 +38,25 @@ table.help tr td {
     box-shadow: 1px 1px 1px 1px;
     border-radius: 10px;
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin: auto;
     width: 60%;
+}
+.log:hover {
+    background-color: #A4A4A4;
+    transition-duration: 1s;
+    border-radius: 20px;
+    width: 50%;
+}
+.log:not(:hover) {
+    transition-duration: 1s;
+    transition-delay: 0.5s;
 }
 h2 {
     font-size: 20px;
     color: #0B615E;
+}
+body.changelog {
+    background-color: #E6E6E6;
 }
