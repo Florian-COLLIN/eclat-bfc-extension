@@ -7,6 +7,9 @@ p {
     font-family: "Century Schoolbook";
     font-size: 1em;
 }
+ul li {
+    font-size: 15px;
+}
 main {
     width: 50%;
     margin-top: 50px;
