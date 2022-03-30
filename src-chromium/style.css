@@ -1,3 +1,6 @@
+* {
+    font-family: "Century Schoolbook";
+}
 p.help,
 table.help tr td {
     font-family: "Century Schoolbook";
@@ -35,7 +38,7 @@ table.help tr td {
     opacity: 0.5;
 }
 .log {
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: 0 0 .5em #999;
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
@@ -44,14 +47,20 @@ table.help tr td {
     width: 60%;
 }
 .log:hover {
-    background-color: #A4A4A4;
+    background-color: #BDBDBD;
     transition-duration: 1s;
     border-radius: 20px;
     width: 50%;
+    box-shadow: 0 0 .8em #999;
 }
 .log:not(:hover) {
     transition-duration: 1s;
     transition-delay: 0.5s;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
 }
 h2 {
     font-size: 20px;
